@@ -25,7 +25,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "5 7 2 9 9 4"
-          expected-output: "SUM 31 AVG 6.20 MAX 9 IDX 2"
+          expected-output: |-
+            SUM 31
+            AVG 6.20
+            MAX 9
+            IDX 2
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -38,7 +42,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "1 5"
-          expected-output: "SUM 5 AVG 5.00 MAX 5 IDX 0"
+          expected-output: |-
+            SUM 5
+            AVG 5.00
+            MAX 5
+            IDX 0
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -51,7 +59,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "4 -1 -2 -3 -4"
-          expected-output: "SUM -10 AVG -2.50 MAX -1 IDX 0"
+          expected-output: |-
+            SUM -10
+            AVG -2.50
+            MAX -1
+            IDX 0
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -64,7 +76,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "5 0 0 0 0 0"
-          expected-output: "SUM 0 AVG 0.00 MAX 0 IDX 0"
+          expected-output: |-
+            SUM 0
+            AVG 0.00
+            MAX 0
+            IDX 0
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -77,7 +93,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "6 1 2 3 4 5 6"
-          expected-output: "SUM 21 AVG 3.50 MAX 6 IDX 5"
+          expected-output: |-
+            SUM 21
+            AVG 3.50
+            MAX 6
+            IDX 5
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -90,7 +110,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "6 6 5 6 4 6 3"
-          expected-output: "SUM 30 AVG 5.00 MAX 6 IDX 0"
+          expected-output: |-
+            SUM 30
+            AVG 5.00
+            MAX 6
+            IDX 0
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -103,7 +127,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "3 100 50 75"
-          expected-output: "SUM 225 AVG 75.00 MAX 100 IDX 0"
+          expected-output: |-
+            SUM 225
+            AVG 75.00
+            MAX 100
+            IDX 0
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -116,7 +144,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "7 8 -2 8 -2 8 -2 8"
-          expected-output: "SUM 26 AVG 3.71 MAX 8 IDX 0"
+          expected-output: |-
+            SUM 26
+            AVG 3.71
+            MAX 8
+            IDX 0
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -129,7 +161,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "5 2 2 2 3 3"
-          expected-output: "SUM 12 AVG 2.40 MAX 3 IDX 3"
+          expected-output: |-
+            SUM 12
+            AVG 2.40
+            MAX 3
+            IDX 3
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -142,7 +178,11 @@ jobs:
           setup-command: gcc -std=c11 -O2 -Wall -Wextra -o soal1 soal1.c
           command: ./soal1
           input: "4 1 2 3 10"
-          expected-output: "SUM 16 AVG 4.00 MAX 10 IDX 3"
+          expected-output: |-
+            SUM 16
+            AVG 4.00
+            MAX 10
+            IDX 3
           comparison-method: exact
           timeout: 2
           max-score: 10
